@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+My To-Do List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠 Estado: En desarrollo
 
-## Available Scripts
+My To-Do List App es una aplicación web creada con React para la gestión de tareas pendientes. En su versión actual, permite agregar, marcar como completadas y eliminar tareas, así como filtrar las tareas según su estado (todas, completadas, incompletas). Se planean múltiples mejoras y nuevas características en futuras versiones.
 
-In the project directory, you can run:
+Características actuales
+Agregar tareas a la lista.
+Marcar tareas como completadas.
+Eliminar tareas de la lista.
+Filtrar tareas según su estado (todas, completadas, incompletas).
+Persistencia del filtro a través de LocalStorage, de modo que las preferencias del usuario no se pierden al recargar la página.
+Instalación
 
-### `npm start`
+Clona este repositorio:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copiar código
+git clone https://github.com/tuusuario/my-todo-app.git
+cd my-todo-app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instala las dependencias:
 
-### `npm test`
+bash
+Copiar código
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia la aplicación localmente:
 
-### `npm run build`
+bash
+Copiar código
+npm start
+La aplicación estará disponible en http://localhost:3000/.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tecnologías utilizadas
+React: Librería de JavaScript para la construcción de interfaces de usuario.
+LocalStorage: Para guardar la configuración del filtro de tareas.
+CSS: Para los estilos básicos de la aplicación.
+Características futuras
+La aplicación está en sus primeras etapas de desarrollo. En futuras versiones, se implementarán nuevas características, como:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend: Se añadirá un backend con autenticación para permitir que los usuarios guarden sus tareas de manera permanente en la nube.
+Gestión de tareas tipo Kanban: Se añadirá una funcionalidad de tipo Kanban para organizar las tareas en diferentes estados (pendiente, en progreso, completada).
+Fechas de vencimiento y recordatorios: Los usuarios podrán asignar fechas límite a las tareas, con notificaciones o recordatorios.
+Soporte multiusuario: Cada usuario tendrá acceso a su propio tablero de tareas, gestionadas con autenticación.
+Diseño responsive: Se mejorará la interfaz para ofrecer una experiencia más fluida en dispositivos móviles.
+Contribuciones
+¡Las contribuciones son bienvenidas! Si deseas contribuir, por favor sigue los pasos a continuación:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Haz un fork del proyecto.
+Crea una rama para tu nueva funcionalidad (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz un commit (git commit -m 'Añadir nueva funcionalidad').
+Haz push a tu rama (git push origin feature/nueva-funcionalidad).
+Abre un Pull Request.
+Contacto
+Si tienes preguntas o sugerencias, no dudes en contactar a través de manureina87@gmail.com.
