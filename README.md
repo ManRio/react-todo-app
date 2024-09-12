@@ -16,7 +16,7 @@ Clona este repositorio:
 
 bash
 Copiar código
-git clone https://github.com/tuusuario/my-todo-app.git
+[git clone https://github.com/tuusuario/my-todo-app.git](https://github.com/ManRio/react-todo-app)
 cd my-todo-app
 
 Instala las dependencias:
